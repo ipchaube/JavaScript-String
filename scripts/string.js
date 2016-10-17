@@ -41,6 +41,13 @@ function stringconcat(){
     return "concat of str1, str2, str3="+str1.concat(str2, str3);
 }
 
+// String indexOf
+function stringindexOf(){
+    "use strict";
+    var str1 = "Santa Barbara is a great place in USA.";
+    return "Index of great="+str1.indexOf("great")+ " and Index of indu="+str1.indexOf("indu")+"// -1 means not found";
+}
+
 
 /*
     This method will be use to print the result in the element ID
