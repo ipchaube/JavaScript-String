@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css" />
+    <script src="scripts/string.js"></script>
+    <title>JavaScript String- By Indu P Chaube</title>
+    <style>
+        .premethod{
+            height: 150px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<h2>JavaScript String, Author: Indu P Chaube</h2>
+<p>
+    This is page is design to understand JavaScript string methods.
+</p>
+<div class="col-md-6 panel panel-default">
+    <h4>stringconstructor Method</h4>
+    <pre class="premethod">
+        function stringconstructor(){
+            "use strict";
+            var str = new String("This is my test string");
+            return "String="+str+", Constructor="+ str.constructor;
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringconstructor">
+
+    </div>
+    <script>
+        printResult("idstringconstructor", stringconstructor());
+    </script>
+</div>
+
+<div class="col-md-6 panel panel-default">
+    <h4>stringLength Method</h4>
+    <pre class="premethod">
+        function stringLength(){
+            "use strict";
+            var str = new String("This is my test string");
+            return "String Length="+str.length;
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringLength">
+
+    </div>
+    <script>
+        printResult("idstringLength", stringLength());
+    </script>
+</div>
+
+<div class="col-md-6 panel panel-default">
+    <h4>stringcharAt Method</h4>
+    <pre class="premethod">
+        function stringcharAt(){
+            "use strict";
+            var str = new String("This is my test string");
+            return "String Char at index 1 ="+str.charAt[1];
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringCharat">
+
+    </div>
+    <script>
+        printResult("idstringCharat", stringcharAt());
+    </script>
+</div>
+
+<div class="col-md-6 panel panel-default">
+    <h4>stringcharCodeAt Method</h4>
+    <pre class="premethod">
+        function stringcharCodeAt(){
+            "use strict";
+            var str = new String("This is my test string");
+            var ressult= "String Char ASCII code, at index 0 ="+str.charCodeAt(0);
+                ressult += "at index 1 ="+str.charCodeAt(1);
+            return ressult;
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringcharCodeAt">
+
+    </div>
+    <script>
+        printResult("idstringcharCodeAt", stringcharCodeAt());
+    </script>
+</div>
+
+<div class="col-md-6 panel panel-default">
+    <h4>stringconcat Method</h4>
+    <pre class="premethod">
+        function stringconcat(){
+            "use strict";
+            var str1 = "Indu";
+            var str2 = " P Chaube";
+            var str3 = " , India";
+            return str1.concat(str2, str3);
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringconcat">
+
+    </div>
+    <script>
+        printResult("idstringconcat", stringconcat());
+    </script>
+</div>
+
+
+</body>
+</html>
