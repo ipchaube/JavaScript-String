@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db2d28d-6268-4e8d-823e-866fc5b331b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/string.js" afterPath="$PROJECT_DIR$/scripts/string.js" />
     </list>
@@ -28,12 +27,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+            <state relative-caret-position="739">
+              <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
               <folding>
-                <marker date="1476727785685" expanded="true" signature="31:3463" placeholder="..." />
-                <marker date="1476727785685" expanded="true" signature="38:228" placeholder="..." />
-                <marker date="1476727785685" expanded="true" signature="3448:3455" placeholder="..." />
+                <marker date="1476728482765" expanded="true" signature="31:4050" placeholder="..." />
+                <marker date="1476728482765" expanded="true" signature="38:228" placeholder="..." />
+                <marker date="1476728482765" expanded="true" signature="4035:4042" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -42,8 +41,8 @@
       <file leaf-file-name="string.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/string.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="47" column="117" selection-start-line="47" selection-start-column="117" selection-end-line="47" selection-end-column="117" />
+            <state relative-caret-position="558">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,15 +207,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476724380286</updated>
-      <workItem from="1476724382476" duration="3525000" />
+      <workItem from="1476724382476" duration="4224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3525000" />
+    <option name="totallyTimeSpent" value="4224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -248,20 +247,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+        <state relative-caret-position="739">
+          <caret line="146" column="49" selection-start-line="146" selection-start-column="49" selection-end-line="146" selection-end-column="49" />
           <folding>
-            <marker date="1476727785685" expanded="true" signature="31:3463" placeholder="..." />
-            <marker date="1476727785685" expanded="true" signature="38:228" placeholder="..." />
-            <marker date="1476727785685" expanded="true" signature="3448:3455" placeholder="..." />
+            <marker date="1476728482765" expanded="true" signature="31:4050" placeholder="..." />
+            <marker date="1476728482765" expanded="true" signature="38:228" placeholder="..." />
+            <marker date="1476728482765" expanded="true" signature="4035:4042" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/string.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="47" column="117" selection-start-line="47" selection-start-column="117" selection-end-line="47" selection-end-column="117" />
+        <state relative-caret-position="558">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>

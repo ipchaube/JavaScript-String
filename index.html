@@ -116,7 +116,7 @@
     <pre class="premethod">
         function stringindexOf(){
             "use strict";
-            var str1 = "Santa Barbara is a great place in USA.";
+            var str1 = "Santa Barbara is a great place in USA to live.";
             return "index of great="+str1.indexOf("great");
         }
     </pre>
@@ -129,6 +129,24 @@
     </script>
 </div>
 
+
+<div class="col-md-6 panel panel-default">
+    <h4>stringlastIndexOf Method</h4>
+    <pre class="premethod">
+        function stringlastIndexOf(){
+            "use strict";
+            var str1 = "Santa Barbara is a great place in USA to live.";
+            return "Last Index of great="+str1.lastIndexOf("great")+ " and Last Index of indu="+str1.lastIndexOf("indu")+"// -1 means not found";
+        }
+    </pre>
+    <b>Result:</b>
+    <div id="idstringlastIndexOf">
+
+    </div>
+    <script>
+        printResult("idstringlastIndexOf", stringlastIndexOf());
+    </script>
+</div>
 
 </body>
 </html>

@@ -44,8 +44,15 @@ function stringconcat(){
 // String indexOf
 function stringindexOf(){
     "use strict";
-    var str1 = "Santa Barbara is a great place in USA.";
+    var str1 = "Santa Barbara is a great place in USA to live.";
     return "Index of great="+str1.indexOf("great")+ " and Index of indu="+str1.indexOf("indu")+"// -1 means not found";
+}
+
+// String lastIndexOf
+function stringlastIndexOf(){
+    "use strict";
+    var str1 = "Santa Barbara is a great place in USA to live.";
+    return "Last index of great="+str1.lastIndexOf("great") + " and Last index of indu="+str1.lastIndexOf("indu")+"// -1 means not found";
 }
 
 
